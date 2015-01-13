@@ -1,6 +1,6 @@
 ***aws-scripts:***
 ===
-A Collection of Scripts for managing AWS
+A Collection of Scripts(Mostly Python) for managing various AWS resources.
 
 # AWSDyn-Inv:
 - Extension to ec2.py script which can be used for creating Dynamic Inventory of your AWS ec2 instances. 
