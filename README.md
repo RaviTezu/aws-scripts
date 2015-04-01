@@ -10,5 +10,5 @@ A Collection of Scripts(Mostly Python) for managing various AWS resources.
 
 #CloudWatch:
 - Uses boto python module to get the rds instance metrics.
-- I have written this to push the CloudWatch metrics to Zabbix. For Zabbix Template, see this: 
+- I have written this to push the CloudWatch metrics to Zabbix. For Zabbix Template, see this: https://github.com/RaviTezu/zabbix_templates
 
