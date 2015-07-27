@@ -19,7 +19,7 @@ fi
 
 # Make a call to AWS Metadata URL to get the ephemeral drives
 ephemeral_drives=`curl --silent $METADATA_BASEURL/meta-data/block-device-mapping/ | grep ephemeral`
-ephemeral_count=`echo $ephemeral_drives | wc -l`
+ephemeral_count=`echo $ephemeral_drives | grep -v "^$" | wc -l`
 
 # Print out the ephemeral drives
 echo " "
